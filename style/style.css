@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:wght@100;200;400&display=swap');
+
+/*Variaveis*/
+:root{
+    --vermelho: #E50914;
+    --preto:#141414;
+}
+
+/*Reset*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* Serve para limitar os elementos dentro de uma BOX*/
+}
+
+/*Elementos Base*/
+body{
+    background: var(--preto);
+    font-family: 'Poppins', Times, Serif;
+    color: #fff;
+}
+
+header .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.netflix-logo{
+    width: 10%;
+    margin-bottom: 0.5rem;
+    padding: 10px;
+}
+
+header nav a{
+    text-decoration: none;
+    color: #AAA;
+    margin-right: 40px;
+    font-size: 1.3rem;
+    transition: 0.2s;
+    font-family: 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+}
+
+header nav a:hover{
+    color: #fff;
+}
+
+/*Filme Principal*/
+
+.container{
+    margin-left: 3%;
+}
+
+.filme-principal{
+    font-size: 16px;
+    background:url(../img/gotbg.png);
+    height: 90vh;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.filme-principal .logo-filme{
+    width: 50%;
+    margin-top: 10%;
+}
+
+.filme-principal .descricao{
+    margin-bottom: 50px;
+    opacity: 0.6;
+    width: 50%;
+    padding: 10px;
+    transition: 0.4s;
+}
+
+.descricao:hover{
+    background: rgba(0,0,0,.40);
+    color: #fff;
+    opacity: 1;
+}
+
+.filme-principal .titulo{
+    font-size: 40px;
+    margin-top: 5%;
+}
+
+.botao{
+    background-color: rgb(201, 197, 197);
+    color: black;
+    border: none;
+    padding: 20px 30px;
+    margin-right: 10px;
+    font-size: 16px;
+    transition: 0.4s ease all;
+    cursor: pointer;
+}
+
+.botao2{
+    background-color: rgba(0,0,0,.50);
+    color: #fff;
+    border: none;
+    padding: 20px 30px;
+    margin-right: 10px;
+    font-size: 16px;
+    transition: 0.4s ease all;
+    cursor: pointer;
+}
+
+.botao:hover{
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);  
+}
+
+.botao2:hover{
+    background-color: rgb(0,0,0,.6);
+    color: rgb(255, 255, 255);  
+}
+
+.botao i{
+    margin-right: 4px;
+}
+
+/*Responsividade*/
+.filme-principal .container{
+    width: 70%;
+}
+
+/*Carrosel*/
+.box-filme{
+    margin-top: 2%;
+    height: 100%;
+    width: 100%;
+    display: block;
+}
+

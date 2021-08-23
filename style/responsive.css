@@ -1,0 +1,41 @@
+@media screen and (max-width:700px){
+    header .container{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .botao2{
+        margin-top: 10px;
+        
+    }
+
+    .filme-principal .descricao{
+        width: 100%;
+        background-color: rgba(0,0,0,5);
+    }
+
+    header nav a{
+        margin-right: 5px;
+
+    }
+
+    .filme-principal .logo-filme{
+        width: 100%;
+    }
+
+    .netflix-logo{
+        width: 50%;
+    }
+
+    .filme-principal{
+        background-position: center;
+        background-image: cover;
+    }
+
+}
+
+@media screen and (max-width:1000px){
+    .descricao{
+        width: 50%;
+    }
+}
