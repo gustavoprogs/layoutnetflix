@@ -9,7 +9,11 @@
 
 
 ##  Responsivo (max-width: 768px)
-![Imagem PC](img/screenshots/tablet.jpg)
+![Imagem tablet](img/screenshots/TABLET.jpg)
+
+
+
+
 
 ## Carrosel
 ![Carrosel](img/screenshots/carousel.jpg)
